@@ -7,26 +7,13 @@
 
 
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 
 
 
-.sub-link {
-  text-decoration: none;
-}
 
-.section-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+
 
 /*----------- HEADER------------- */
 
