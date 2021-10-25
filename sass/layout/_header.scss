@@ -55,6 +55,10 @@
   
   .header-link {
     position: relative;
+    &:hover .header-icon,
+      :focus .header-icon {
+        fill: var(--accent-color);
+      }
   }
   
   .current::after {
@@ -101,7 +105,4 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .header-link:hover .header-icon,
-  .header-link:focus .header-icon {
-    fill: var(--accent-color);
-  }
+  
