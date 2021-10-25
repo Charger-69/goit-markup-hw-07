@@ -34,19 +34,16 @@
     font-size: 16px;
     line-height: 0.8;
     letter-spacing: 0.01em;
-    color: #000000
-  }
-  
-  .modal-input:hover {
-    cursor: pointer;
-  }
-  
-  .modal-input:focus {
-    border-color: var(--accent-color);
-  }
-  
-  .modal-input:focus + .input-icon {
-    fill: var(--accent-color);
+    color: #000000;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      border-color: var(--accent-color);
+    }  
+    &:focus + .input-icon {
+      fill: var(--accent-color);
+    }
   }
   
   .input-icon {
@@ -81,17 +78,15 @@
     background: transparent;
     padding: 10px;
     outline: none;
-  }
-  
-  .modal-text-input::placeholder {
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-  }
-  
-  .modal-text-input:focus {
-    border-color: var(--accent-color);
+    &::placeholder {
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.01em;
+      color: rgba(117, 117, 117, 0.5);
+    }
+    &:focus {
+      border-color: var(--accent-color);
+    }
   }
   
   .check-text {
